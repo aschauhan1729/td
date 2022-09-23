@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  margin-top: 2%;
+  flex-wrap: wrap;
+}
+
+.container1 {
+  height: auto;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  margin-right: 50px;
+  padding: 16px;
+}
+.container1 h4 {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.container2 {
+  margin-top: 7%;
+}
+
+.container2 input {
+  border-style: none;
+  font-size: larger;
+  border-left: 2px solid black;
+  height: 50px;
+  padding-left: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.task {
+  margin-top: 25px;
+  padding-left: 20px;
+  display: flex;
+}
+.taskname {
+  width: 80%;
+  font-size: large;
+  word-wrap: break-word;
+}
+
+.check-cross {
+  width: 17%;
+}
+.cross {
+  cursor: pointer;
+}
+
+.pencil{
+  cursor: pointer;
+  padding: 10px;
+}
